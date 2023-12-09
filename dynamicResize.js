@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', function(event){
 });
 
 function resize() {
-    var width = 1080;
-    var height = 1920;
+    var width = 720;
+    var height = 1280;
     canvasAspectRatio = width / height;
 
     var windowWidth = window.innerWidth;

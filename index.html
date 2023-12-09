@@ -11,7 +11,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=720 height=1280></canvas>
+      <canvas id="unity-canvas" width=540 height=960></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -26,11 +26,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/6.loader.js";
+      var loaderUrl = buildUrl + "/Nets.loader.js";
       var config = {
-        dataUrl: buildUrl + "/6.data",
-        frameworkUrl: buildUrl + "/6.framework.js",
-        codeUrl: buildUrl + "/6.wasm",
+        dataUrl: buildUrl + "/Nets.data",
+        frameworkUrl: buildUrl + "/Nets.framework.js",
+        codeUrl: buildUrl + "/Nets.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "E-business",
         productName: "SliceBox",
